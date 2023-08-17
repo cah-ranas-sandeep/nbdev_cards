@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "learn module",
+    "section": "",
+    "text": "source\n\nAbility\n\n Ability (damage, damage_type)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nCharacter\n\n Character (name, max_health, ability)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nMage\n\n Mage (name, max_health, ability)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nDemon\n\n Demon (name, max_health)\n\nInitialize self. See help(type(self)) for accurate signature.\n\ndemon = Demon(\"Raavanaa\", 100)\nprint(demon)\n\n            Raavanaa's Current Health: 100\n            Raavanaa's Max Health: 100\n            Raavanaa's Ability Damage: 10\n            Raavanaa's Ability Type: fire\n\n            \n\n\n\nmage.attack(demon)\nprint(demon)\n\nFrom Laxamanaa's wand, ice cold water is flung towards Raavanaa\n            Raavanaa's Current Health: 90\n            Raavanaa's Max Health: 100\n            Raavanaa's Ability Damage: 10\n            Raavanaa's Ability Type: fire"
+  },
+  {
+    "objectID": "game.html",
+    "href": "game.html",
+    "title": "Game module",
+    "section": "",
+    "text": "from nbdev_cards.core import Mage, Ability, Demon\n\n\nsource\n\ninit_player\n\n init_player ()\n\n\nsource\n\n\ncombat\n\n combat (player, boss)\n\n\nsource\n\n\ngame_loop\n\n game_loop (player, n=5)\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nplayer\n\n\n\n\n\nn\nint\n5\nn is number of rounds"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_cards",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev_cards",
+    "section": "Install",
+    "text": "Install\npip install nbdev_cards"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_cards",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
